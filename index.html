@@ -614,9 +614,22 @@
                             <li><a href="#0">Github</a></li>
                         </ul>
                     </div>
-                    <div class="column lg-4 md-12 contact-block">
-                        <a href="mailto:sayhello@luther.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
-                    </div>
+                   <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mjgeobzw"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
                 </div> <!-- end contact-bottom -->
 
             </section> <!-- end contact -->
@@ -652,4 +665,5 @@
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
