@@ -1854,7 +1854,7 @@ select {
     line-height         : var(--input-line-height);
     max-width           : 100%;
     background          : transparent;
-    border-bottom       : 1px solid var(--color-border);
+    border-bottom       : 1px solid white;
     transition          : all .3s ease-in-out;
 }
 
